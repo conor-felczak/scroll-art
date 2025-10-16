@@ -1,3 +1,5 @@
+
+
 public class TesterHelp {
 
         static int HAT_WIDTH = 16;
@@ -7,7 +9,7 @@ public class TesterHelp {
         
     
         public static void main(String[] args) throws Exception {
-            
+            //testing commit
             while (true) {
             char[][] hatTester = get_hat();
 
