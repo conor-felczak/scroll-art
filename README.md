@@ -2,7 +2,7 @@ TestingNewStuff prints random still images of either a hat or a mask that scroll
 
 1. Hat
 
-I was inspired by the calling card from the game persona 5, although it didn't come out quite as expected when it printed in the terminal.
+I was inspired by the calling card from the game persona 5, although it didn't come out quite as expected when it printed in the terminal. (check ConorsAsciiArt.png to see how it looked when I drew it)
 
           /\\\|//\\    
           \#####/|     
