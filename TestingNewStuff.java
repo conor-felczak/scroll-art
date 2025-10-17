@@ -8,8 +8,10 @@ public class TestingNewStuff {
         static int MASK_HEIGHT = 13;
         static int TERMINAL_WIDTH_TESTER = 80;
         static int TERMINAL_HEIGHT_TESTER = 20;
+        static int randomSpace = (int)(Math.random() * 101);
         static final Random ran = new Random();
         static char[][] imager = hatter();
+        static int counter = 0;
 
         static char[] spaces = new char[100];
         
@@ -29,6 +31,8 @@ public class TestingNewStuff {
 
                 for (int x = 0; x < TERMINAL_WIDTH_TESTER; x++) {
                 
+                    
+
                     if (x > 0) {
                         //add spaces
                         bigSpaces = bigSpaces + spaces[x];
@@ -41,7 +45,7 @@ public class TestingNewStuff {
                     else  {
                         imager = masker();
                     }
-                    Thread.sleep(200);
+                    Thread.sleep(100);
 
                     
                     for (String i : converter(imager)) {
