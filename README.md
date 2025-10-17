@@ -24,11 +24,11 @@ I was inspired by the calling card from the game persona 5, although it didn't c
 
 The mask was inspired by the mask from persona 5, again it didn't come out quite right in the terminal (check ConorsAsciiArt.png to see how it looked when I drew it)
 
-
-   /----\/----\
-   \ ##    ## /
-    \  /  \  / 
-     \- \/ -/ 
+      /----\/----\
+      \ ##    ## /
+       \  /  \  / 
+        \- \/ -/
+  
   
 
 I used the 2D array from from Ms. Feng's code, but I used a function to convert 2D char arrays to 1D string arrays in order to finally print it.
